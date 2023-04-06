@@ -1,0 +1,56 @@
+body {
+    background-color: black;
+}
+
+p,
+h1 {
+    color: white;
+}
+
+.div_common {
+    background-color: Grey;
+    width: 25%;
+    text-align: center;
+    margin: auto;
+    border-radius: 11px;
+}
+
+.sub {
+    width: 70%;
+    background-color: coral;
+    border-radius: 20px;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.btn_common {
+    border-radius: 10px;
+    background-color: rgb(179, 172, 172);
+    margin: 3px;
+    border-color: grey;
+    border-style: none;
+    cursor: pointer;
+    /* padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 4px;
+    padding-bottom: 4px; */
+}
+
+.parat {
+    border-radius: 12px;
+    background-color: rgb(190, 177, 177);
+    margin-left: 6%;
+    margin-right: 6%;
+}
+
+.parat p {
+    color: rgb(236, 119, 35);
+}
+
+@media only screen and (max-width: 600px) {
+    .div_common {
+        width: 95%;
+    }
+}
